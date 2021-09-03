@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">PedraPapelTesoura</string>
+    <string name="pedra">Pedra</string>
+    <string name="papel">Papel</string>
+    <string name="tesoura">Tesoura</string>
+    <string name="dois">Dois</string>
+    <string name="tr_s">Três</string>
+    <string name="jogada_do_computador">Jogada do Computador:</string>
+    <string name="jogada_do_computador_2">Jogada do Computador 2:</string>
+    <string name="resultado">Resultado:</string>
 </resources>

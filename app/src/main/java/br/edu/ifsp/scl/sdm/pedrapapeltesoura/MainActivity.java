@@ -159,8 +159,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     resultadoSb.append("Você perdeu!");
                 else resultadoSb.append("Empate!");
                 }
-            else if (jogada ==2){
-                if ((jogada + jogadaComputador) == 4)
+            else if (jogada == 2){
+                if ((jogada + jogadaComputador + jogadaComputadorDois) == 4)
                     resultadoSb.append("Você ganhou!");
                 else if ((jogada + jogadaComputador + jogadaComputadorDois) == 7 || (jogada + jogadaComputador + jogadaComputadorDois) == 8)
                     resultadoSb.append("Você perdeu!");
@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     jogada = 0;
                 if ((jogada + jogadaComputador + jogadaComputadorDois) == 7)
                     resultadoSb.append("Você ganhou!");
-                else if ((jogada + jogadaComputador + jogadaComputadorDois) == 4 || (jogada + jogadaComputador + jogadaComputadorDois) == 8)
+                else if ((jogada + jogadaComputador + jogadaComputadorDois) == 4 || (jogada + jogadaComputador + jogadaComputadorDois) == 5)
                     resultadoSb.append("Você perdeu!");
                 else resultadoSb.append("Empate!");
             }
